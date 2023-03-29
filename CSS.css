@@ -1,0 +1,116 @@
+*{
+      margin:0;
+    padding:0;
+    text-decoration:none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:inherit;
+}
+body{
+    font-family: sans-serif;
+    background-image: url('https://scontent.fpkr3-1.fna.fbcdn.net/v/t1.15752-9/337544883_536990218459637_808167075027434409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kOVe419dnXgAX_J-AtZ&_nc_oc=AQnGmQxzWAJ9h8E7B0OLvzDI5q52idKy44nJW-iL1ms8FraptIAdW1HLPlsusOk3YZc&_nc_ht=scontent.fpkr3-1.fna&oh=03_AdTp_BNGSRWDrut3Hky0CtoovK0SurqYr-mNLNdqhOLjvQ&oe=644BB81C');
+    background-size: cover;
+    scroll-behavior:auto;
+    scroll-margin-block: auto;
+    scroll-padding-block-end: auto;
+}
+marquee{
+    color:red;
+    font-family:bold;
+   font-style: italic;
+   font:bold;
+
+}
+nav{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background:black;
+    box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
+    text-shadow: 0cap;
+    contain-intrinsic-block-size: 3px;
+    transition: all.3s;
+
+}
+nav ul li a:hover{
+    color:red;
+}
+nav .LOGO{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style:italic;
+    color: gold;
+    line-height: 50px;
+    font-family: arial;
+    border-image: round;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+    position:sticky;
+    margin: 5px;
+    padding: auto;
+}
+nav ul li{
+    display:inline-block;
+list-style: none;
+    margin: 0 15px ;
+    line-height: 60px;
+
+}
+nav ul li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+    padding-left: 10%;
+    font-family:arial;
+    font-style:italic;
+    border-top:1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black;
+    border-left:  5px solid transparent;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+
+}
+li a.contact{
+    border-bottom:1px solid rgba(0,0,0,.5) ;
+}
+.active a{
+    color: aqua;
+    border-right:  5px solid grey;
+    background:grey;
+}
+section{
+    margin-left: 25px;
+
+}
+nav li a.contact{
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+p{
+    color:#ef7d0bec;
+    font-weight: bold;
+}
+h1{
+    font-size: 35px;
+    padding: 25px 0 5px 0px;
+    color: yellow;
+    font:bold;
+    font-style: italic;
+    font-family:arial;
+    margin-right: 1px;
+    height: 50%;
+
+}
+h3{
+
+    background: fixed;
+    color: blue;
+    background-color: bisque;
+    height: 70%;
+    width:fit-content;
+
+}

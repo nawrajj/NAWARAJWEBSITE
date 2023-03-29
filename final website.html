@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <link rel="stylesheet" href="CSS.css">
+    </head>
+    <body>
+        <nav>
+    <label class="LOGO">NawaRAJ</label>
+<ul>
+<li><a class="active"><a href="#">Home</a></li> 
+<li><a href="#">About</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">CV</a></li>
+<li><a class="contact"href="#">Contact</a></li>
+<li><a href="#">Feedback</a></li>
+</ul>
+
+<marquee><b>Hey Guys Welcome to My Website. Thank you  for visiting here.</b></marquee>
+<h2><marquee behavior="scroll"direction="right">  Stay safe  & healthy</marquee></h2>
+<section>
+    <div class="search">
+        <input class="srch" type="search" name=""placeholder="Type to Search ">
+        <a href="#"><button class="btn">search</button></a>
+        <div class="sec0"></div>
+        <h3 id="NEB Questions set">NEB Questions</h3>
+
+        <div class="sec1"></div>
+<h1 id="About ">About</h1>
+<p>My name is Nawaraj pathak. i am a cs student. i have taken Computer up to grade & had taken CS in +2 level.</p>
+<div class="sec2"></div>
+<h1 id="Gallery ">Gallery </h1>
+<img-src></img-src>
+<div class="sec3"></div>
+<h1 id="CV ">CV</h1>
+<div class="sec4"></div>
+<h1 id="Contact ">Contact</h1>
+<P>Address:Kachankawal,Jhapa</Address></P>
+<p>Country:NEPAL</p>
+<p><number>PH:9806091623 </number></p>
+<p><email>E-mail:nawrajpathak14@gmail.com</email></p>
+<div class="sec5"></div>
+<h1 id="Feedback">Feedback</h1>
+<script>
+var scroll1 = window.pageYOffset;
+window.onscroll=function(){
+    var scroll2=window.pageYOffset;
+    if(scroll1 > scroll2){
+        document.querySelector('nav').style.top="0";
+    }else{
+        document.querySelector('nav').style.top="-100px";
+    }
+    scroll1=scroll2;
+}
+</script>
+
+
+</section>
+</nav>
+</body>
+</html>
