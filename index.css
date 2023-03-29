@@ -14,6 +14,8 @@ body{
   scroll-behavior:auto;
   scroll-margin-block: auto;
   scroll-padding-block-end: auto;
+    background-position: center;
+  height: 109vh;
 }
 marquee{
   color:red;
