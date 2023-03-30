@@ -6,6 +6,7 @@
 }
 html{
   scroll-behavior:inherit;
+    scroll-page:aut0;
 }
 body{
   font-family: sans-serif;
@@ -19,7 +20,7 @@ marquee{
   font-family:bold;
  font-style: italic;
     font-text:40px;
-    font-margin:20%;
+    font-margin:10%;
 nav{
   position: fixed;
   height: 60px;
@@ -88,8 +89,9 @@ nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 p{
-  color:Black;
+  color:green;
   font-weight: bold;
+    font-size: 15px;
 }
 h1{
   font-size: 35px;
