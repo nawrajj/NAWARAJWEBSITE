@@ -21,8 +21,7 @@ marquee{
   }
 nav{
   position: fixed;
-  height:75px;
-  Padding:10x;
+  height:70px;
   width:100px;
   background:black;
   box-shadow: 0px 4px 10px rgba(0,0,0,.3);
