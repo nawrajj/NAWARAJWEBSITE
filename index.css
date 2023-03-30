@@ -42,7 +42,6 @@ nav{
   position: fixed;
   height:65px;
   Width:100%;
-margin:auto;
   background:black;
   box-shadow: 0px 4px 10px rgba(0,0,0,.3);
   contain-intrinsic-block-size: 3px;
