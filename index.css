@@ -6,7 +6,7 @@
 }
 html{
   scroll-behavior:inherit;
-    scroll-page:aut0;
+  
 }
 body{
   font-family: sans-serif;
@@ -120,3 +120,4 @@ width:20%;
 box{
     color:red;
     width:20%;
+    }
