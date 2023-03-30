@@ -22,11 +22,9 @@ marquee{
 nav{
   position: fixed;
   height:80px;
-  width: 100%;
+  width:100%;
   background:black;
-  box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
-  text-shadow: 1cap;
-Border-shadow:white
+  box-shadow: 0px 4px 10px rgba(0,0,0,.3);
   contain-intrinsic-block-size: 3px;
   transition: all.3s;
 
@@ -37,7 +35,7 @@ nav ul li a:hover{
 nav ul li a{
 display: block;
   color: white;
-  font-size: 30px;
+  font-size: 35px;
   line-height:5px;
   padding-left: 10%;
   font-family:arial;
@@ -67,7 +65,6 @@ nav ul{
 nav ul li{
   display:inline-block;
 list-style: none;
-  margin: 0 15px ;
   line-height: 60px;
 
 }
@@ -110,13 +107,41 @@ h3{
   background-color: bisque;
   height: 70%;
   width:fit-content;
-
+    margin-left: 270px;
 }
-search{
-color:white;
-width:20%;
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
 }
-box{
-    color:red;
-    width:20%;
-    }
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-tosearch{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+}
