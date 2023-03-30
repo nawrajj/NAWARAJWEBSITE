@@ -103,6 +103,7 @@ h1{
 }
 h3{
   background: fixed;
+background-color:pink;
   color: blue;
   background-color: bisque;
   height: 70%;
@@ -121,16 +122,12 @@ h3{
     background: transparent;
     border: 1px solid #ff7200;
     color:brown;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
+  
 }
-    border-tosearch{
-    width: 330px;
- }
 .srch{
     font-family: 'Times New Roman';
     width: 50px;
     height: 40px;
     background: transparent;
     color:red; 
+}
