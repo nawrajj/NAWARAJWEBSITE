@@ -19,8 +19,7 @@ marquee{
   font-family:bold;
  font-style: italic;
     font-text:40px;
-    height:20%;
-}
+    font-margin:20%;
 nav{
   position: fixed;
   height: 60px;
