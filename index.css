@@ -37,7 +37,7 @@ nav ul li a:hover{
   color:red;
 
 }
-nav a{
+nav ul li a{
 display: block;
   color: white;
   font-size: 20px;
