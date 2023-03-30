@@ -21,7 +21,7 @@ marquee{
   }
 nav{
   position: fixed;
-  height:70px;
+  height:80px;
   width: 100%;
   background:black;
   box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
@@ -38,7 +38,7 @@ nav ul li a{
 display: block;
   color: white;
   font-size: 30px;
-  line-height: 0px;
+  line-height:5px;
   padding-left: 10%;
   font-family:arial;
   font-style:italic;
