@@ -18,9 +18,6 @@ marquee{
   color:red;
   font-family:bold;
  font-style: italic;
- font:bold;
-height:100PX
-
 }
 nav{
   position: fixed;
@@ -41,7 +38,7 @@ nav ul li a{
 display: block;
   color: white;
   font-size: 30px;
-  line-height: 1px;
+  line-height: 30px;
   padding-left: 10%;
   font-family:arial;
   font-style:italic;
