@@ -19,7 +19,6 @@ marquee{
   font-family:bold;
  font-style: italic;
  font:bold;
-  font-size:25px;
 height:100PX
 
 }
@@ -42,7 +41,7 @@ nav ul li a{
 display: block;
   color: white;
   font-size: 30px;
-  line-height: 5px;
+  line-height: 1px;
   padding-left: 10%;
   font-family:arial;
   font-style:italic;
@@ -118,3 +117,6 @@ search{
 color:white;
 width:20%;
 }
+box{
+    color:red;
+    width:20%;
