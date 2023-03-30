@@ -15,9 +15,10 @@ background-scroll:auto;
 
 }
 marquee{
-  color:red;
+  color:brown;
   font-family:bold;
  font-style: italic;
+    font-text: 30px;
 }
 nav{
   position: fixed;
