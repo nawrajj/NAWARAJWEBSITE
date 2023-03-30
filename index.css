@@ -18,7 +18,8 @@ marquee{
   color:brown;
   font-family:bold;
  font-style: italic;
-    font-text: 30px;
+    font-text:40px;
+    height:20%;
 }
 nav{
   position: fixed;
