@@ -14,7 +14,6 @@ body{
   scroll-behavior:auto;
   scroll-margin-block:10px;
     background-position: center;
-  height: 109vh;
 }
 marquee{
   color:red;
@@ -25,7 +24,7 @@ marquee{
 }
 nav{
   position: fixed;
-  height: 50px;
+  height: 60px;
   width: 100%;
   background:black;
   box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
@@ -38,13 +37,13 @@ nav ul li a:hover{
   color:red;
 }
 nav .LOGO{
-  font-size: xx-large;
+  font-size: larger;
   font-weight: bold;
   font-style:italic;
   color: gold;
   line-height: 50px;
   font-family: arial;
-  border-image: round;
+
 }
 nav ul{
   float: right;
@@ -63,7 +62,7 @@ list-style: none;
 nav ul li a{
   display: block;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 5px;
   padding-left: 10%;
   font-family:arial;
