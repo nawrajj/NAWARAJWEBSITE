@@ -110,24 +110,3 @@ background-color:pink;
   width:fit-content;
     margin-left: 270px;
 }
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 100px;
-    height: 20px;
-    background: transparent;
-    border: 1px solid #ff7200;
-    color:brown;
-  
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 50px;
-    height: 40px;
-    background: transparent;
-    color:red; 
-}
