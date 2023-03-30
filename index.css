@@ -38,7 +38,7 @@ nav ul li a{
 display: block;
   color: white;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 0px;
   padding-left: 10%;
   font-family:arial;
   font-style:italic;
