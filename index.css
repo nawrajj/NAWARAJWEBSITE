@@ -74,13 +74,11 @@ list-style: none;
   line-height: 60px;
 
 }
-
-}
 li a.contact{
   border-bottom:1px solid rgba(0,0,0,.5) ;
 }
 .active a{
-  color: aqua;
+  color: black;
   border-right:  5px solid grey;
   background:grey;
 }
@@ -92,7 +90,7 @@ nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 p{
-  color:#ef7d0bec;
+  color:Black;
   font-weight: bold;
 }
 h1{
