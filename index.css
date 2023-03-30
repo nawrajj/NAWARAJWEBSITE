@@ -21,8 +21,9 @@ marquee{
   }
 nav{
   position: fixed;
-  height:80px;
-  width:100%;
+  height:75px;
+  Padding:10x;
+  width:100px;
   background:black;
   box-shadow: 0px 4px 10px rgba(0,0,0,.3);
   contain-intrinsic-block-size: 3px;
@@ -101,7 +102,6 @@ h1{
 
 }
 h3{
-
   background: fixed;
   color: blue;
   background-color: bisque;
@@ -116,32 +116,21 @@ h3{
 }
 .srch{
     font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
+    width: 100px;
+    height: 20px;
     background: transparent;
     border: 1px solid #ff7200;
-    margin-top: 13px;
-    color: #fff;
-    border-right: none;
+    color:brown;
     font-size: 16px;
     float: left;
     padding: 10px;
-    border-bottom-left-radius: 5px;
+}
     border-tosearch{
     width: 330px;
-    float: left;
-    margin-left: 270px;
-}
+ }
 .srch{
     font-family: 'Times New Roman';
-    width: 200px;
+    width: 50px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff7200;
-    margin-top: 13px;
-    color: #fff;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-}
+    color:red; 
