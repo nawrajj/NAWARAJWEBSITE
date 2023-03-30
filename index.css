@@ -10,7 +10,7 @@ html{
 body{
   font-family: sans-serif;
   background-image: url('https://scontent.fpkr3-1.fna.fbcdn.net/v/t1.15752-9/337544883_536990218459637_808167075027434409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kOVe419dnXgAX_J-AtZ&_nc_oc=AQnGmQxzWAJ9h8E7B0OLvzDI5q52idKy44nJW-iL1ms8FraptIAdW1HLPlsusOk3YZc&_nc_ht=scontent.fpkr3-1.fna&oh=03_AdTp_BNGSRWDrut3Hky0CtoovK0SurqYr-mNLNdqhOLjvQ&oe=644BB81C');
-  background-size:auti;
+  background-size:auto;
     background-position: center;
 
 }
