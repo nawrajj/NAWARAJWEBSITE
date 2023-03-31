@@ -6,7 +6,7 @@
 }
 img {
 		
-	
+	height:30pxx;
 		width: 20%;
 		animation: fade-in 1s ease-in-out forwards;
 		animation-delay: 1s;
@@ -20,7 +20,7 @@ html{
 
 #section1 {
   height: 300px;
-  background-color:Blue
+  background-color:Blue;
 width:100%;
 Height:50px;
 
