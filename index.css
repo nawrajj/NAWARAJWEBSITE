@@ -9,19 +9,8 @@ img {
 height:300px;
 }
 html{
-  scroll-behavior: smooth;
-
-}
-
-var {scroll1 = window.pageYOffset;
-window.onscroll=function(){
-    var scroll2=window.pageYOffset;
-    if(scroll1 > scroll2){
-        document.querySelector('nav').style.top="0";
-    }else{
-        document.querySelector('nav').style.top="-10px";
-    }
-    scroll1=scroll2;
+  scroll-behavior: smooth
+Scroll:
 }
 #section1 {
   height: 500px;
