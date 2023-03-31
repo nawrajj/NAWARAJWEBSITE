@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 img {
-	Width:30%;		
+	Width:20%;		
 height:200px;
 }
 html{
@@ -59,7 +59,7 @@ nav ul li a{
 display: block-line;
   color: white;
   font-size: 35px;
-padding:30px;
+padding:5px;
   font-family:arial;
   font-style:italic;
   border-top:1px solid rgba(255, 255, 255, 0.1);
