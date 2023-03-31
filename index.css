@@ -26,17 +26,19 @@ html{
 }
 
 #section1 {
-  height: 600px;
-  background-color: pink;
+  height: 300px;
+  background-color:tranaparent;
+Width:100%;
 }
-
-#section2 {
-
-<h1>Smooth Scroll</h1>
-
-<div class="main" id="section1">
-  <h2>Section 1</h2>
-  <p>Click on the link to see the "smooth" scrolling effect.</p>
+#section2{
+  height: 300px;
+  background-color:grey;
+Width:100%;
+}
+#section1 {
+  height: 300px;
+  background-color:tranaparent;
+Width:100%;
 }
 body{
   font-family: sans-serif;
@@ -109,10 +111,7 @@ li a.contact{
   border-right:  5px solid grey;
   background:grey;
 }
-section{
-  margin-left: 25px;
 
-}
 nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
