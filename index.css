@@ -4,6 +4,23 @@
   text-decoration:none;
   box-sizing: border-box;
 }
+img {
+			display: block;
+			margin: 50px auto;
+			max-width: 100%;
+			opacity: 0;
+			animation: fade-in 1s ease-in-out forwards;
+			animation-delay: 1s;
+		}
+video {
+			display: block;
+			margin: 50px auto;
+			max-width: 100%;
+			opacity: 0;
+			animation: fade-in 1s ease-in-out forwards;
+			animation-delay: 1.5s;
+		}
+
 html{
   scroll-behavior: smooth;
 }
