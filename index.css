@@ -6,7 +6,7 @@
 }
 img {
 	Width:20%;		
-height:200px;
+height:300px;
 }
 html{
   scroll-behavior: smooth;
@@ -60,6 +60,7 @@ display: block-line;
   color: white;
   font-size: 35px;
 padding:5px;
+font-height:20px;
   font-family:arial;
   font-style:italic;
   border-top:1px solid rgba(255, 255, 255, 0.1);
