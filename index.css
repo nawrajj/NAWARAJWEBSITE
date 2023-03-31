@@ -8,9 +8,8 @@ img {
 		
 	height:30px;
 		width: 20%;
-		animation: fade-in 1s ease-in-out forwards;
-		animation-delay: 1s;
-height:50px;
+		
+height:100px;
 }
 
 html{
@@ -61,13 +60,12 @@ nav ul li a:hover{
   color:red;
 }
 nav ul li a{
-display: block;
+display: block-line;
   color: white;
   font-size: 35px;
   line-height:5px;
 padding:30px;
-margin:20px;
-height:30px;
+height:20px;
   font-family:arial;
   font-style:italic;
   border-top:1px solid rgba(255, 255, 255, 0.1);
@@ -109,7 +107,7 @@ nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 p{
-  color:yello;
+  color:brown;
   font-weight: bold;
     font-size: 15px;
 font-family:arial;
@@ -127,7 +125,5 @@ h1{
 h3{
   background: fixed;
   color:yellow;
-  height: 70%;
-  width:fit-content;
     margin-left: 270px;
 }
