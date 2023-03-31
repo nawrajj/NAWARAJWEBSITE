@@ -6,12 +6,12 @@
 }
 img {
 		
-			margin: 50px a;
-			max-width: 20%;
-		
-			animation: fade-in 1s ease-in-out forwards;
-			animation-delay: 1s;
-		}
+	
+		width: 20%;
+		animation: fade-in 1s ease-in-out forwards;
+		animation-delay: 1s;
+height:50px;
+}
 
 html{
   scroll-behavior: smooth;
@@ -132,8 +132,4 @@ h3{
   height: 70%;
   width:fit-content;
     margin-left: 270px;
-}
-a{
-image-position:right;
-image-size:15px;
 }
