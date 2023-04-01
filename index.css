@@ -16,12 +16,11 @@ width:100%;
 border-color:yellow;
 }
 
-section1{
+#section1{
   height: 20%;
   background-color;green
 width:100%;
 body{
- 
   background-color:white;
     background-size: cover;
     background-position: center;
@@ -34,7 +33,7 @@ marquee{
   }
 nav{
   position: fixed;
-  height:80px;
+  height:90px;
   Width:100%;
   background:black;
   contain-intrinsic-block-size: 3px;
@@ -47,10 +46,10 @@ nav ul li a:hover{
 nav ul li a{
 display: block-line;
   color: white;
-  font-size: 35px;
+  font-size: 30px;
 margin-left:auto;
 padding:2px;
-margin:20px;
+margin:18px;
 font-height:20px;
   font-family:arial;
   font-style:italic;
@@ -59,13 +58,11 @@ font-height:20px;
   transition: 0.4s ease-in-out;
 }
 nav .LOGO{
-  font-size: 50px;
+  font-size: 55px;
   font-weight: bold;
   font-style:italic;
   color:gold;
   line-height: 50px;
-  font-family: arial;
-
 }
 nav ul{
   float: right;
