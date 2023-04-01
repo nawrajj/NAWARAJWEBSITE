@@ -11,9 +11,15 @@ height:200px
 }
 section{
   height: 500px;
-  background-color:orange;
+  margin: 0px;
 width:100%;
+border-color:yellow;
 }
+
+section1{
+  height: 20%;
+  background-color;green
+width:100%;
 body{
  
   background-color:white;
