@@ -9,31 +9,27 @@ img {
 	Width:20%;		
 height:200px
 }
-section{
-height:100vh;
-display-flex;
-}
-section1 {
+#section1 {
   height: 700px;
   background-color:pink;
 width:100%;
 }
-section2{
+#section2{
   height: 500px;
   background-color:orange;
 width:100%;
 }
-section3{
+#section3{
   height: 500px;
   background-color:grey;
 width:100%;
 }
-section4{
+#section4{
   height: 500px;
   background-color:red;
 width:100%;
 }
-section5{
+#section5{
   height: 600px;
   background-color:white;
 width:100%;
