@@ -9,19 +9,14 @@ img {
 	Width:20%;		
 height:200px
 }
-#section1 {
-  height: 700px;
-  background-color:pink;
-width:100%;
-}
-#section{
+section{
   height: 500px;
   background-color:orange;
 width:100%;
 }
 body{
  
-  background-color:blue;
+  background-color:white;
     background-size: cover;
     background-position: center;
 }
