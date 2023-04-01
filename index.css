@@ -14,24 +14,9 @@ height:200px
   background-color:pink;
 width:100%;
 }
-#section2{
+#section{
   height: 500px;
   background-color:orange;
-width:100%;
-}
-#section3{
-  height: 500px;
-  background-color:grey;
-width:100%;
-}
-#section4{
-  height: 500px;
-  background-color:red;
-width:100%;
-}
-#section5{
-  height: 600px;
-  background-color:white;
 width:100%;
 }
 body{
@@ -107,13 +92,13 @@ nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 p{
-  color:green;
+  color:black;
   font-weight: bold;
     font-size: 25px;
 font-family:arrial;
 }
 h1{
-  font-size: 45px;
+  font-size: 50px;
   padding: 25px 0 5px 0px;
   color: gold;
   font:bold;
