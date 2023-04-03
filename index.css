@@ -105,8 +105,10 @@ nav li a.contact{
 section{
   width: 100%;
   height: 500px;
+margin:auto;
+padding:auti;
 }
-section1{
+#section1{
   width: 100%;
   height: 300px;
 }
