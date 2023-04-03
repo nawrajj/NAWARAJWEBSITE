@@ -26,7 +26,7 @@ marquee{
 }
 nav{
   position: fixed;
-  height: 60px;
+  height: 75px;
   width: 100%;
   background:black;
   box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
@@ -39,7 +39,7 @@ nav ul li a:hover{
   color:red;
 }
 nav .LOGO{
-  font-size: 59px;
+  font-size: 55px;
   font-weight: bold;
   font-style:italic;
   color: gold;
@@ -69,7 +69,7 @@ nav ul li a{
   display: block;
   color: white;
   font-size: 25px;
-  line-height: 5px;
+     line-height: 50px;
   padding-left: 10%;
   font-family:arial;
   font-style:italic;
