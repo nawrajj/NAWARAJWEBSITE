@@ -69,7 +69,7 @@ nav ul li a{
   color: white;
   font-size: 30px;
      line-height: 40px;
-  padding-left: 5%;
+  padding-left:10px;
   font-family:arial;
   font-style:italic;
   border-top:1px solid rgba(255, 255, 255, 0.1);
@@ -107,13 +107,12 @@ section{
   height: 500px;
 }
 section1{
-  background-color:red ;
   width: 100%;
   height: 300px;
 }
 p{
   font-weight: bold;
-  font-size: large;
+  font-size: x-large;
   color:purple;
 }
 h1{
@@ -131,6 +130,5 @@ h3{
   color: blue;
   background-color: bisque;
   height: 70%;
-  width:fit-content;
 
 }
