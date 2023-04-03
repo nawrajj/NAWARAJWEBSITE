@@ -1,43 +1,36 @@
-{
+*{
     margin:0;
   padding:0;
   text-decoration:none;
   box-sizing: border-box;
-font-family:"popins",sans-serief;
 }
-img {
-	Width:20%;		
-height:200px
+html{
+  scroll-behavior:auto;
+  
 }
-section{
-  height: 500px;
-  margin: 0px;
-display :flex;
-width:100%;
-alin-item: center;
-}
-
-#home{
- 
-  background-color;green
-width:100%;
-height:100px;
 body{
-  background-color:white;
-    background-size: cover;
-    background-position: center;
+  font-family: sans-serif;
+  background-image: url('https://scontent.fpkr3-1.fna.fbcdn.net/v/t1.15752-9/337544883_536990218459637_808167075027434409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kOVe419dnXgAX_J-AtZ&_nc_oc=AQnGmQxzWAJ9h8E7B0OLvzDI5q52idKy44nJW-iL1ms8FraptIAdW1HLPlsusOk3YZc&_nc_ht=scontent.fpkr3-1.fna&oh=03_AdTp_BNGSRWDrut3Hky0CtoovK0SurqYr-mNLNdqhOLjvQ&oe=644BB81C');
+  background-size: cover;
+  background-position: center;
+  height: 109vh;
+
 }
 marquee{
-  color:brown;
+  color:red;
   font-family:bold;
  font-style: italic;
-    font-size:40px;
-  }
+ font:bold;
+ height: 50px;
+
+}
 nav{
   position: fixed;
-  height:90px;
-  Width:100%;
+  height: 60px;
+  width: 100%;
   background:black;
+  box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
+  text-shadow: 0cap;
   contain-intrinsic-block-size: 3px;
   transition: all.3s;
 
@@ -45,26 +38,14 @@ nav{
 nav ul li a:hover{
   color:red;
 }
-nav ul li a{
-display: block-line;
-  color: white;
-  font-size: 30px;
-margin-left:auto;
-padding:2px;
-margin:18px;
-font-height:20px;
-  font-family:arial;
-  font-style:italic;
-  border-top:1px solid rgba(255, 255, 255, 0.1);
-  font-weight: bold;
-  transition: 0.4s ease-in-out;
-}
 nav .LOGO{
-  font-size: 55px;
+  font-size: 59px;
   font-weight: bold;
   font-style:italic;
-  color:gold;
+  color: gold;
   line-height: 50px;
+  font-family: arial;
+  border-image: round;
 }
 nav ul{
   float: right;
@@ -76,31 +57,66 @@ nav ul{
 nav ul li{
   display:inline-block;
 list-style: none;
+  margin: 0 15px ;
   line-height: 60px;
 
 }
+ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li a{
+  display: block;
+  color: white;
+  font-size: 25px;
+  line-height: 5px;
+  padding-left: 10%;
+  font-family:arial;
+  font-style:italic;
+  border-top:1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+  border-left:  5px solid transparent;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+}
+h{
+  font-size:x-large;
+  color: blueviolet;
+  font-style: italic;
+ height: 40px;
+  font-weight:bold ;
+}
+a.active{
+  background-color:blue;
+  padding: 5px;
+  display: inline-block;
+}
+
 li a.contact{
   border-bottom:1px solid rgba(0,0,0,.5) ;
 }
-.active a{
-  color: black;
-  border-right:  5px solid grey;
-  background:grey;
-}
-
 nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
+  secttion{
+    display: flex:;
+    height:500px;
+    width:100%;
+  }
+#home{
+  background-color:red ;
+  width: 100%;
+  height: 500px;
 }
 p{
-  color:black;
+  color:#ef7d0bec;
   font-weight: bold;
-    font-size: 25px;
-font-family:arrial;
+  font-size: large;
+  color:purple;
 }
 h1{
-  font-size: 50px;
   padding: 25px 0 5px 0px;
-  color: gold;
+  color: yellow;
   font:bold;
   font-style: italic;
   font-family:arial;
@@ -108,7 +124,11 @@ h1{
   height: 50%;
 }
 h3{
+
   background: fixed;
-  color:yellow;
-    margin-left: 270px;
+  color: blue;
+  background-color: bisque;
+  height: 70%;
+  width:fit-content;
+
 }
