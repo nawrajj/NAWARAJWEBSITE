@@ -68,8 +68,8 @@ ul{
 nav ul li a{
   display: block;
   color: white;
-  font-size: 25px;
-     line-height: 50px;
+  font-size: 30px;
+     line-height: 40px;
   padding-left: 10%;
   font-family:arial;
   font-style:italic;
@@ -109,7 +109,6 @@ nav li a.contact{
   height: 500px;
 }
 p{
-  color:#ef7d0bec;
   font-weight: bold;
   font-size: large;
   color:purple;
