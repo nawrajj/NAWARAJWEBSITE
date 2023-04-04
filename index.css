@@ -108,10 +108,37 @@ section{
 margin:auto;
 padding:auto;
 }
-#section1{
+section1{
+  width: 100%;
+  height: 500px;
+margin:auto;
+padding:auto;
+}
+#section2{
   width: 100%;
   height: 300px;
 }
+section3{
+  width: 100%;
+  height: 500px;
+margin:auto;
+padding:auto;
+}
+
+section4{
+  width: 100%;
+  height: 500px;
+margin:auto;
+padding:auto;
+}
+section5{
+  width: 100%;
+  height: 300px;
+margin:auto;
+padding:auto;
+background-color: black;
+}
+
 p{
   font-weight: bold;
   font-size: x-large;
