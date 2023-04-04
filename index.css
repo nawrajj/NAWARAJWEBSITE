@@ -99,7 +99,7 @@ li a.contact{
 nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
-  #section {
+ section {
     display: flex;
     height: 1000px;
     width:100%;
@@ -110,8 +110,8 @@ nav li a.contact{
   sectionone{
     display: flex;
     height:700px;
-    width:100%;
-    
+    width:100%;  
+align-content:center;
   }
   sectiontwo{
     display: flex;
@@ -130,7 +130,7 @@ nav li a.contact{
   }
   sectionfour{
     display: flex;
-    height:620px;
+    height:600px;
     width:100%;
     background-color: #d87093;
     align-content:center;
