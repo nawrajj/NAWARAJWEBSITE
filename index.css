@@ -105,7 +105,6 @@ nav li a.contact{
     width:100%;
     padding:10%;
     align-items: center;
-    align-content: center;
   }
   sectionone{
     display: flex;
@@ -162,4 +161,7 @@ h{
 img{
   display:contents;
   Size:20%;
+}
+Ol{
+font-size:20px;
 }
