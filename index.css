@@ -99,41 +99,48 @@ li a.contact{
 nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
- section {
+  #section {
     display: flex;
     height: 1000px;
     width:100%;
     padding:10%;
+    border:yellow;
+    border-radius: 1px;
+    border-color: white;
+    align-items: center;
+    align-content: center;
   }
   sectionone{
     display: flex;
-    height:700px;
-    width:100%;  
+    height:620px;
+    width:100%;
+    
   }
   sectiontwo{
     display: flex;
-    height:600px;
+    height:620px;
     width:100%;
     background-color:grey;
+    align-content:center;
   
   }
   sectionthree{
     display: flex;
     background-color: green;
-    height:700px;
+    height:800px;
     width:100%;
     align-content:center;
   }
   sectionfour{
     display: flex;
-    height:600px;
+    height:620px;
     width:100%;
     background-color: #d87093;
     align-content:center;
   }
   sectionfive{
     display: flex;
-    height:200px;
+    height:600px;
     width:100%;
     align-content:center;
   background-color: black;
@@ -144,9 +151,10 @@ p{
   font-size: large;
   color:purple;
 }
-h2{
+h{
   padding: 25px 0 5px 0px;
   color: yellow;
+  font-size: larger;
   font:bold;
   font-style: italic;
   font-family:arial;
@@ -154,8 +162,12 @@ h2{
   height: 50%;
 
 }
-}
-Ol{
-font-size:20px;
-color:red;
+ol{
+  font-size: larger;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 10px;
+  position:left;
+
 }
