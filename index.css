@@ -109,14 +109,12 @@ nav li a.contact{
     display: flex;
     height:700px;
     width:100%;  
-align-content:center;
   }
   sectiontwo{
     display: flex;
     height:600px;
     width:100%;
     background-color:grey;
-    align-content:center;
   
   }
   sectionthree{
@@ -146,10 +144,9 @@ p{
   font-size: large;
   color:purple;
 }
-h{
+h2{
   padding: 25px 0 5px 0px;
   color: yellow;
-  font-size: larger;
   font:bold;
   font-style: italic;
   font-family:arial;
@@ -157,10 +154,8 @@ h{
   height: 50%;
 
 }
-img{
-  display:contents;
-  Size:20%;
 }
 Ol{
 font-size:20px;
+color:red;
 }
