@@ -120,13 +120,13 @@ nav li a.contact{
     display: flex;
     height:620px;
     width:100%;
-    background-color:blue;
+    background-color:white;
     align-content:center;
   
   }
   sectionthree{
     display: flex;
-    background-color: green;
+    background-color:silver;
     height:800px;
     width:100%;
     align-content:center;
@@ -140,7 +140,7 @@ nav li a.contact{
   }
   sectionfive{
     display: flex;
-    height:600px;
+    height:200px;
     width:100%;
     align-content:center;
   background-color: black;
@@ -149,7 +149,7 @@ nav li a.contact{
 p{
   font-weight: bold;
   font-size: larger;
-  color:red;
+  color:grey;
 }
 h{
   padding: 25px 0 5px 0px;
