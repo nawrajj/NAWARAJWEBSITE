@@ -81,10 +81,9 @@ nav ul li a{
 
 }
 h{
-  font-size:x-large;
+  font-size:40px;
   color: blueviolet;
   font-style: italic;
- height: 40px;
   font-weight:bold ;
 }
 a.active{
@@ -127,7 +126,7 @@ nav li a.contact{
   sectionthree{
     display: flex;
     background-color:silver;
-    height:800px;
+    height:1200px;
     width:100%;
     align-content:center;
   }
