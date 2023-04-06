@@ -162,12 +162,13 @@ h{
   height: 50%;
 
 }
-ol{
-  font-size: x-large;
+l{
+  font-size: 35px;
   color:black;
-  font-family:arrial;
   font-weight: bold;
-  padding: 10px;
-  position:left;
 
 }
+ol{
+  font-size: 20px;
+  color:red;
+  font-weight: bold;
