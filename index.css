@@ -127,7 +127,7 @@ nav li a.contact{
   sectionthree{
     display: flex;
     background-color:silver;
-    height:600px;
+    height:800px;
     width:100%;
     align-content:center;
   }
@@ -170,7 +170,7 @@ l{
 }
 ol{
   font-size: 20px;
-  color:white;
+  color:blue;
   font-weight: bold;
     text-align:centre;
 
