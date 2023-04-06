@@ -118,7 +118,7 @@ nav li a.contact{
   }
   sectiontwo{
     display: flex;
-    height:620px;
+    height:1200px;
     width:100%;
     background-color:white;
     align-content:center;
@@ -127,7 +127,7 @@ nav li a.contact{
   sectionthree{
     display: flex;
     background-color:silver;
-    height:1200px;
+    height:600px;
     width:100%;
     align-content:center;
   }
@@ -154,7 +154,7 @@ p{
 h1{
   padding: 25px 0 5px 0px;
   color: yellow;
-  font-size:35px;
+  font-size:40px;
   font:bold;
   font-style: italic;
   font-family:arial;
@@ -163,14 +163,15 @@ h1{
 
 }
 l{
-  font-size: 25px;
+  font-size: 20pxx;
   color:black;
   font-weight: bold;
 
 }
 ol{
-  font-size: 25px;
-  color:red;
+  font-size: 20px;
+  color:white;
   font-weight: bold;
+    text-align:centre;
 
 }
