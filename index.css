@@ -151,10 +151,10 @@ p{
   font-size: larger;
   color:black;
 }
-h{
+h1{
   padding: 25px 0 5px 0px;
   color: yellow;
-  font-size: larger;
+  font-size:35px;
   font:bold;
   font-style: italic;
   font-family:arial;
@@ -163,20 +163,14 @@ h{
 
 }
 l{
-  font-size: 35px;
+  font-size: 25px;
   color:black;
   font-weight: bold;
 
 }
 ol{
-  font-size: 40px;
+  font-size: 25px;
   color:red;
-  font-weight: bold;
-
-}
-K{
-  font-size: 30px;
-  color:white;
   font-weight: bold;
 
 }
