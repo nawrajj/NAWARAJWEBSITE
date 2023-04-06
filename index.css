@@ -66,11 +66,11 @@ ul{
   list-style: none;
 }
 nav ul li a{
-  display: block;
+ display: block;
   color: white;
-  font-size: 25px;
-  line-height: 10px;
-  padding-left: 10%;
+  font-size: 27px;
+  line-height: 35px;
+  margin-left:10%;
   font-family:arial;
   font-style:italic;
   border-top:1px solid rgba(255, 255, 255, 0.1);
@@ -78,6 +78,7 @@ nav ul li a{
   border-left:  5px solid transparent;
   font-weight: bold;
   transition: 0.4s ease-in-out;
+
 
 }
 h{
