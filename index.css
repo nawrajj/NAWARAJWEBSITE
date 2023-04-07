@@ -110,6 +110,13 @@ nav li a.contact{
     align-items: center;
     align-content: center;
   }
+
+section0{
+    display: flex;
+    height:200px;
+    width:100%;
+    
+  }
   sectionone{
     display: flex;
     height:620px;
