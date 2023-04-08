@@ -115,7 +115,7 @@ nav li a.contact{
   }
   sectionone{
     display: flex;
-    height:620px;
+    height:750px;
     width:100%;
     
   }
@@ -170,14 +170,14 @@ l{
   color:black;
   font-weight: bold;
 padding-left:20px;
-align:centre;
+text-align:centre;
 
 }
 ol{
   font-size: 20px;
   color:blue;
   font-weight: bold;
-    text-align:centre;
+    }
 
 
 
