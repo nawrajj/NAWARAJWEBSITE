@@ -14,6 +14,8 @@ body{
   background-size: cover;
   background-position: center;
   height: 109vh;
+ scroll-behavior:smooth;
+
 
 }
 marquee{
@@ -167,6 +169,8 @@ l{
   font-size: 20pxx;
   color:black;
   font-weight: bold;
+padding-left:20px;
+align:centre;
 
 }
 ol{
@@ -175,10 +179,6 @@ ol{
   font-weight: bold;
     text-align:centre;
 
-}
-audio{
-padding-down:20px;
-}
 
 
 
