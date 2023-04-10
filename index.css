@@ -103,7 +103,7 @@ nav li a.contact{
 }
  #section {
     display: flex;
-    height: 2000px;
+    height:100%;
     width:100%;
     padding:10%;
     align-items: center;
@@ -119,7 +119,7 @@ align-content:center;
   }
   sectiontwo{
     display: flex;
-    height:1200px;
+    height:900px;
     width:100%;
     background-color:white;
     align-content:center;
@@ -133,7 +133,7 @@ align-content:center;
   }
  sectionfour{
     display: flex;
-    height:1200px;
+    height:600px;
     width:100%;
     background-color:gold;
     align-content:center;
@@ -166,8 +166,8 @@ h1{
 
 }
 l{
-  font-size: 20pxx;
-  color:black;
+  font-size: 30px;
+  color:white;
   font-weight: bold;
 padding-left:20px;
 text-align:centre;
