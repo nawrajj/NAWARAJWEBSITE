@@ -119,14 +119,14 @@ align-content:center;
   }
   sectiontwo{
     display: flex;
-    height:900px;
+    height:100px;
     width:100%;
     background-color:white;
     align-content:center;
   }
    sectionthree{
     display: flex;
-    height:600px;
+    height:800px;
     width:100%;
     background-color:pink;
     align-content:center;
@@ -140,13 +140,11 @@ align-content:center;
   }
  sectionfive{
     display: flex;
-    height:1200px;
+    height:600px;
     width:100%;
     background-color:black;
     align-content:center;
   }
-  
-  
   
 
 
