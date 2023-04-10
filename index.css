@@ -123,9 +123,30 @@ align-content:center;
     width:100%;
     background-color:white;
     align-content:center;
-    
-  
   }
+   sectionthree{
+    display: flex;
+    height:600px;
+    width:100%;
+    background-color:pink;
+    align-content:center;
+  }
+ sectionfour{
+    display: flex;
+    height:1200px;
+    width:100%;
+    background-color:gold;
+    align-content:center;
+  }
+ sectionfive{
+    display: flex;
+    height:1200px;
+    width:100%;
+    background-color:black;
+    align-content:center;
+  }
+  
+  
   
 
 
@@ -142,7 +163,6 @@ h1{
   font-style: italic;
   font-family:arial;
   margin-right: 1px;
-  height: 50%;
 
 }
 l{
