@@ -115,7 +115,6 @@ nav li a.contact{
     height:700px;
     width:100%;
 align-content:center;
-       align-items: center;
     
   }
   sectiontwo{
@@ -127,29 +126,9 @@ align-content:center;
     
   
   }
-  sectionthree{
-    display: flex;
-    background-color:gold;
-    height:600px;
-    width:100%;
-    align-content:center;
-  }
-  sectionfour{
-    display: flex;
-    height:600px;
-    width:100%;
-    background-color:pink;
-    align-content:center;
-     
-  }
-  sectionfive{
-    display: flex;
-    height:600px;
-    width:100%;
-align-content:center;
-  background-color: black;
+  
 
-  }
+
 p{
   font-weight: bold;
   font-size: larger;
