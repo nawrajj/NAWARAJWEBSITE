@@ -117,11 +117,12 @@ nav li a.contact{
     display: flex;
     height:750px;
     width:100%;
+align-content:center;
     
   }
   sectiontwo{
     display: flex;
-    height:1500px;
+    height:1200px;
     width:100%;
     background-color:white;
     align-content:center;
@@ -136,15 +137,16 @@ nav li a.contact{
   }
   sectionfour{
     display: flex;
-    height:300px;
+    height:600px;
     width:100%;
-    background-color: #d87093;
+    background-color:grey;
     align-content:center;
   }
   sectionfive{
     display: flex;
-    height:300px;
+    height:600px;
     width:100%;
+align-content:center;
   background-color: black;
 
   }
