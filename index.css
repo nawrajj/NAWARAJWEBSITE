@@ -101,7 +101,7 @@ li a.contact{
 nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
-  #section {
+  section {
     display: flex;
     height: 1000px;
     width:100%;
@@ -145,7 +145,6 @@ nav li a.contact{
     display: flex;
     height:300px;
     width:100%;
-    align-content:center;
   background-color: black;
 
   }
