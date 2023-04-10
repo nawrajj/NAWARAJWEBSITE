@@ -124,12 +124,12 @@ align-content:center;
     width:100%;
     background-color:white;
     align-content:center;
-       align-items: center;
+    
   
   }
   sectionthree{
     display: flex;
-    background-color:silver;
+    background-color:gold;
     height:600px;
     width:100%;
     align-content:center;
@@ -138,16 +138,15 @@ align-content:center;
     display: flex;
     height:600px;
     width:100%;
-    background-color:grey;
+    background-color:pink;
     align-content:center;
-       align-items: center;
+     
   }
   sectionfive{
     display: flex;
     height:600px;
     width:100%;
 align-content:center;
-       align-items: center;
   background-color: black;
 
   }
