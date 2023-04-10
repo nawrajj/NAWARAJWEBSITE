@@ -101,23 +101,21 @@ li a.contact{
 nav li a.contact{
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
-  section {
+ #section {
     display: flex;
     height: 1000px;
     width:100%;
     padding:10%;
-    border:red;
-    border-radius: 1px;
-    border-color: white;
     align-items: center;
     align-content: center;
     
   }
   sectionone{
     display: flex;
-    height:750px;
+    height:700px;
     width:100%;
 align-content:center;
+       align-items: center;
     
   }
   sectiontwo{
@@ -126,12 +124,13 @@ align-content:center;
     width:100%;
     background-color:white;
     align-content:center;
+       align-items: center;
   
   }
   sectionthree{
     display: flex;
     background-color:silver;
-    height:800px;
+    height:600px;
     width:100%;
     align-content:center;
   }
@@ -141,12 +140,14 @@ align-content:center;
     width:100%;
     background-color:grey;
     align-content:center;
+       align-items: center;
   }
   sectionfive{
     display: flex;
     height:600px;
     width:100%;
 align-content:center;
+       align-items: center;
   background-color: black;
 
   }
