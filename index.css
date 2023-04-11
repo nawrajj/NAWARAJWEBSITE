@@ -110,40 +110,33 @@ nav li a.contact{
   sectionone{
     display: flex;
     height:700px;
-    width:100%;
 align-content:center;
     
   }
   sectiontwo{
     display: flex;
     height:1000px;
-    width:100%;
     background-color:white;
     align-content:center;
   }
    sectionthree{
     display: flex;
     height:800px;
-    width:100%;
     background-color:pink;
     align-content:center;
   }
  sectionfour{
     display: flex;
     height:600px;
-    width:100%;
     background-color:gold;
     align-content:center;
   }
  sectionfive{
     display: flex;
     height:600px;
-    width:100%;
     background-color:black;
     align-content:center;
   }
-  
-
 
 p{
   font-weight: bold;
