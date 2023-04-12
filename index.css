@@ -114,7 +114,30 @@ width:100%;
     height:600px;
 align-content:center;   
   }
-
+sectiontwo{
+    display: flex;
+width:100%;
+    height:1000px;
+align-content:center;   
+  }
+sectionthree{
+    display: flex;
+width:100%;
+    height:800px;
+align-content:center;   
+  }
+sectionfour{
+    display: flex;
+width:100%;
+    height:200px;
+align-content:center;   
+  }
+sectionfive{
+    display: flex;
+width:100%;
+    height:400px;
+align-content:center;   
+  }
 p{
   font-weight: bold;
   font-size: larger;
