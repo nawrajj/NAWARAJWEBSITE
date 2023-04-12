@@ -118,25 +118,21 @@ sectiontwo{
     display: flex;
 width:100%;
     height:1000px;
-align-content:center;   
   }
 sectionthree{
     display: flex;
 width:100%;
     height:800px;
-align-content:center;   
-  }
+}
 sectionfour{
     display: flex;
 width:100%;
     height:200px;
-align-content:center;   
   }
 sectionfive{
     display: flex;
 width:100%;
     height:400px;
-align-content:center;   
   }
 p{
   font-weight: bold;
@@ -168,12 +164,16 @@ li{
 text-align:centre;
     }
 Form{
-font-size:35
+font-size:35;
 text-align:centre;
-text-content:centre;
+background-color:gold;
 }
 h3{
 background-color:gold;
+}
+BR{
+font-size:30;
+color:pink;
 }
 
 
