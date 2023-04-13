@@ -114,23 +114,6 @@ width:100%;
     height:600px;
 align-content:center;   
   }
-sectiontwo{
-    display: flex;
-width:100%;
-    height:1000px;
-  }
-sectionthree{
-    display: flex;
-    height:800px;
-}
-sectionfour{
-    display: flex;
-    height:200px;
-  }
-sectionfive{
-    display: flex;
-    height:400px;
-  }
 p{
   font-weight: bold;
   font-size: larger;
