@@ -104,6 +104,7 @@ nav li a.contact{
  #section {
     display: flex;
     padding:10%;
+margin-down:5px;
     align-content: center;
 width:100%;
     
@@ -153,6 +154,7 @@ background-color:gold;
 }
 BR{
 font-size:30px;
+box-size:30px;
 
 }
 
