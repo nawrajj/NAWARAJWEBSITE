@@ -21,8 +21,7 @@ body{
 marquee{
   color:red;
   font-family:bold;
- font-style: italic;
-font-size:30px;
+size:30px;
 background-color:pink;
 
 }
