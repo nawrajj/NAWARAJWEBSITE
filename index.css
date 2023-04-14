@@ -22,7 +22,7 @@ marquee{
   color:red;
   font-family:bold;
  font-style: italic;
-font-size:20px;
+font-size:30px;
 background-color:pink;
 
 }
@@ -156,8 +156,8 @@ BR{
 font-size:30px;
 }
 input{
-font-size:30px;
-box-size:30px;
+font-size:32px;
+box-size:32px;
 
 }
 
