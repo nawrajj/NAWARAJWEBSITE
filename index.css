@@ -20,6 +20,7 @@ body{
 }
 marquee{
   color:red;
+padding-down:10px;
   font-family:bold;
  font-style: italic;
  font:bold;
