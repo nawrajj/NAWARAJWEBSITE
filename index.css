@@ -145,7 +145,7 @@ li{
 text-align:centre;
     }
 Form{
-font-size:40px;
+font-size:42px;
 text-align:centre;
 background-color:gold;
 }
@@ -159,6 +159,9 @@ input{
 font-size:32px;
 box-size:32px;
 
+}
+button{
+font-size:32px;
 }
 
 
