@@ -152,15 +152,16 @@ h3{
 background-color:gold;
 }
 BR{
-font-size:30px;
+font-size:33px;
 }
 input{
 font-size:32px;
 box-size:32px;
 
 }
-button{
+radio button{
 font-size:32px;
+size:32px;
 }
 h2{
 color:gold;
