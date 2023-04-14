@@ -21,10 +21,10 @@ body{
 marquee{
   color:red;
 padding-down:10px;
+margin-bottom:100x;
   font-family:bold;
  font-style: italic;
- font:bold;
- height: 50px;
+ height: 90px;
 
 }
 nav{
