@@ -84,9 +84,10 @@ nav ul li a{
 }
 h{
   font-size:40px;
-  color: blueviolet;
+  color: blue;
   font-style: italic;
   font-weight:bold ;
+background-color:white;
 }
 a.active{
   background-color:blue;
