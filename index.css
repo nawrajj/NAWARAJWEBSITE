@@ -183,7 +183,11 @@ font-family:arrial;
 }
 img{
 image-size:small;
-position:centre;
+}
+
+href{
+size:30px;
+
 }
 
 
