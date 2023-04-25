@@ -22,8 +22,6 @@ marquee{
   color:red;
   font-family:bold;
 size:40px;
-background-color:green;
-background-size:40px;
 }
 nav{
   position: fixed;
