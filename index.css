@@ -43,7 +43,8 @@ marquee{
   color:red;
   font-family:bold;
 size:40px;
-backround-color:Blue
+backround-color:Blue;
+backround-size:50px;
 }
 nav{
   position: fixed;
