@@ -44,7 +44,7 @@ marquee{
   font-family:bold;
 size:70px;
 background-color:Blue;
-background-size:100px;
+background-size:60px;
 }
 nav{
   position: fixed;
@@ -146,7 +146,7 @@ p{
 h1{
   padding: 25px 0 5px 0px;
 
-  font-size:65px;
+  font-size:50px;
   font:bold;
   font-style: italic;
   font-family:arial;
