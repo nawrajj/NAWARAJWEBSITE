@@ -59,6 +59,7 @@ nav{
 }
 nav ul li a:hover{
   color:red;
+background-color:blue;
 }
 nav .LOGO{
   font-size: 69px;
@@ -90,7 +91,7 @@ ul{
 nav ul li a{
  display: block;
   color: white;
-  font-size: 27px;
+  font-size: 37px;
   line-height: 35px;
   margin-left:10%;
   font-family:arial;
