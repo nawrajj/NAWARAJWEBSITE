@@ -216,3 +216,33 @@ background-size:50px;
 bacround-color:red;
 }
 
+
+
+.fa { 
+   padding: 20px; 
+   font-size: 35px; 
+   width: 55px; 
+   text-align: center; 
+   text-decoration: none; 
+   margin: 5px 2px; 
+ } 
+ .fa-facebook{ 
+   background: #3b5998; 
+   color: whi; 
+ } 
+ .fa-youtube{ 
+   background: #bb0000; 
+ } 
+ .fa-twitter{ 
+   background: #55acee; 
+ } 
+ .fa-instagram{ 
+   background:black; 
+ } 
+ .fa-whatsapp{ 
+   background:green; 
+ } 
+ .fa-google{ 
+   background:black; 
+ }
+
