@@ -217,11 +217,14 @@ background-size:50px;
 bacround-color:red;
 }
 
-sectionseven{
-align-text:cent;
-text-align:center;
-align-content:center;
-}
+
+
+section1{ 
+   background: black; 
+   color: white; 
+   text-align: center; 
+  
+ }
 
 
 .fa { 
