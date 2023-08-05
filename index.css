@@ -246,7 +246,7 @@ height:100%;
  .fa-youtube{ 
    background: #bb0000; 
 
- color: white
+ color: white;
  } 
  .fa-twitter{ 
    background: #55acee; 
@@ -257,11 +257,11 @@ height:100%;
  .fa-whatsapp{ 
    background:green; 
 
- color: white
+ color: white;
  } 
  .fa-google{ 
    background:black; 
 
- color: white
+ color: white;
  }
 
