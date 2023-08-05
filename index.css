@@ -220,7 +220,7 @@ bacround-color:red;
 
 
 section1{ 
-   background: black; 
+
   
    text-align: center; 
 
@@ -241,12 +241,12 @@ height:100%;
  } 
  .fa-facebook{ 
    background: #3b5998; 
-   color: white; 
+   color:white; 
  } 
  .fa-youtube{ 
    background: #bb0000; 
 
- color: white;
+ color:white;
  } 
  .fa-twitter{ 
    background: #55acee; 
@@ -262,6 +262,6 @@ height:100%;
  .fa-google{ 
    background:black; 
 
- color: white;
+ color:white;
  }
 
