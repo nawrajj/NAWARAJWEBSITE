@@ -1,31 +1,66 @@
+<html>
+
 <!DOCTYPE html>
 <html>
-<Head> 
-
-
+    <head>
+        <title>Page Title</title>
+        
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2064685240515491"
      crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+        </script> 
+        </head>
+    <body>
+      
+     
+        <div class="container">
+      
+<!--.............desktop............-->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</Head>
-    <link rel="stylesheet" href="index.css">
- 
-   <body>
-
-
-        <div>
-        <nav class="nav">
-    <label class="LOGO">NawaRAJ</label>
-<ul>
-<li class="links"><a href="#Home">Home</a></li> 
-<li class="links"><a href="#About">About</a></li>
-<li class="links"><a href="#Content">Content</a></li>
-
-<li class="links"><a href="#Feedback">Feedback</a></li>
-</ul>
-        </nav>
-        </div>
-
+            <nav class="desk">
+                <label>LOCHAN PATHK</label>
+                <i class="fa fa-moon-o" id="b" ></i>
+          
+                <ul>    <li class="links"></liclass> <a href="#Home" >Home</a></li> 
+    <li class="links"><a href="#About">About</a></li> 
+    <li class="links"><a href="#Project">Project</a></li>
+    <li class="links"><a href="#Team">Team</a></li>
+     <li class="links"><a href="#Feedback">Feedback</a></li> 
+                </ul>
+            </nav>
+            
+<!--............mobile..............-->            
+            <nav class="mob"> 
+                <label>LOCHAN PATHK</label>
+                <i class="fa fa-moon-o" id="e" ></i>
+               
+            <div class="toggle">
+               
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+               
+            </div>
+                <ul>
+                    <li class="links"></liclass> <a href="#Home" >Home</a></li> 
+    <li class="links"><a href="#About">About</a></li> 
+    <li class="links"><a href="#Project">Project</a></li>
+    <li class="links"><a href="#Team">Team</a></li>
+     <li class="links"><a href="#Feedback">Feedback</a></li> 
+                </ul>
+            </nav>
+            
+<!--..........remaing page..........-->            
+      
+        <sectionone id="Home"> 
+        
+            
+   
 <marquee></marquee>
 <h2><marquee> Welcome to my Official website of my </marquee></h2>
 
@@ -188,7 +223,96 @@ action="mailto:nawarajpathak14@gmail.com" method="post" enctype="text/plain">
   
  </div>  
                    
-</section1>
-</nav>
-</body>
+</section1>  
+    
+            
+                  <section2>
+                <a class="main-btn" href="#top">Back🔝Top </a>
+                <a name="bottom"></a>
+                </section2>                
+                           
+          
+
+<script>
+$(document).ready(function(){
+   $(".toggle .fa-times").hide();
+    
+    
+$(".toggle .fa-bars").click(function (){
+    $(this).hide();
+    $(".toggle .fa-times").show();
+    $(".mob ul").addClass("active");
+});
+  
+
+$(".toggle .fa-times").click(function(){
+    $(this).hide();
+    $(".toggle .fa-bars").show();
+    $(".mob ul").removeClass("active");
+});
+
+});
+
+
+
+var body = document.querySelector("body")
+var btn = document.querySelector("#b")
+
+
+var off = 0
+btn.addEventListener ("click",function(){
+if(off == 0){
+
+
+            body.style.backgroundColor= "#878694"
+            btn.style.color = "white"
+           
+            off = 1
+          
+            
+}else{
+  btn.style.color = "black"
+  
+ 
+            body.style.backgroundColor = "#e1d9d1"
+         
+            b.style.color= "black"
+            off = 0
+           
+}
+
+
+    })  
+ 
+    
+    var body = document.querySelector("body")
+var e = document.querySelector("#e")
+
+var off = 0
+e.addEventListener ("click",function(){
+if(off == 0){
+e.style.color = "white"
+
+            body.style.backgroundColor= "#878694"
+
+            off = 1
+          
+            
+}else{
+  e.style.color = "black"
+  
+ 
+            body.style.backgroundColor = "#e1d9d1"
+           
+            off = 0
+           
+}
+
+
+    })  
+
+ </script>
+ 
+    </body>
+</html>
 </html>
