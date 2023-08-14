@@ -1,267 +1,194 @@
-*{
-    margin:0;
-  padding:0;
-  text-decoration:none;
-  box-sizing: border-box;
-}
-html{
-  scroll-behavior:smooth;
+*{ 
+     margin:0; 
+     padding:0; 
   
-}
-body{
-  font-family: sans-serif;
-  background-color:white;
-  background-size: cover;
-  background-position: center;
-  height: 109vh;
- scroll-behavior:smooth;
-
-
-}
-
-input[type=text] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-  width: 100%;
-}
-
-
-marquee{
-  color:red;
-  font-family:bold;
-size:70px;
-background-color:Blue;
-background-size:60px;
-}
-nav{
-  position: fixed;
-  height: 70px;
-  width: 100%;
-  background:black;
-  box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
-  text-shadow: 0cap;
-  contain-intrinsic-block-size: 3px;
-  transition: all.3s;
-
-}
-nav ul li a:hover{
-  color:red;
-background-color:blue;
-}
-nav .LOGO{
-  font-size: 69px;
-  font-weight: bold;
-  font-style:italic;
-  color: gold;
-  line-height: 50px;
-  font-family: arial;
-  border-image: round;
-}
-nav ul{
-  float: right;
-  margin-right: 50px;
-  position:sticky;
-  margin: 5px;
-  padding: auto;
-}
-nav ul li{
-  display:inline-block;
-list-style: none;
-  margin: 0 15px ;
-  line-height: 60px;
-
-}
-ul{
-  display: flex;
-  list-style: none;
-}
-nav ul li a{
- display: block;
-  color: white;
-  font-size: 37px;
-  line-height: 35px;
-  margin-left:10%;
-  font-family:arial;
-  font-style:italic;
-  border-top:1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid black;
-  border-left:  5px solid transparent;
-  font-weight: bold;
-  transition: 0.4s ease-in-out;
-
-
-}
-h{
-  font-size:40px;
-  color: blue;
-  font-style: italic;
-  font-weight:bold ;
-background-color:white;
-}
-a.active{
-  background-color:blue;
-  padding: 5px;
-  display: inline-block;
-}
-
-li a.contact{
-  border-bottom:1px solid rgba(0,0,0,.5) ;
-}
-nav li a.contact{
-  border-bottom: 1px solid rgba(255,255,255,.1);
-}
- #section {
-    display: flex;
-    padding:10%;
-margin-down:5px;
-    align-content: center;
-height:100%;
-width:100%;
+     } 
+     body{ 
+  
+             font-family: sans-serif; 
+             background-size: cover; 
+             background-position: center; 
+  
+             background-color:#e1d9d1; 
+             scroll-behavior:smooth; 
+  
+     } 
+     .mob{ 
+         height: 39px; 
+         background-color:rgb(2, 139, 18); 
+         position:fixed; 
+         width: 100%; 
+  
+     } 
+ .desk{ 
+     height: 39px; 
+     background-color:rgba(162, 1, 199, 0.952); 
+     width: 100%; 
+     position: fixed; 
+ } 
+  
+ .container nav.desk 
+ .container nav.mob{ 
+     width:100%; 
+     height:50px;  
+  
+     } 
+ label{ 
+     font-size: xx-large; 
+     color: gold; 
+     font-weight: bolder; 
+ } 
+  
+ nav.desk ul li a { 
+  padding: 7px; 
+  line-height: 40px; 
+ color: white; 
+         } 
+  
+         .desk ul { 
+      float:right ; 
+  
+                 } 
+ .desk ul li{ 
+  
+     font-size:larger; 
+    display: inline-block; 
+     text-transform:uppercase; 
+     cursor:pointer; 
+     transition:all 0.5s ease; 
+     } 
+  
+  
+ nav  li:hover{ 
+  
+    color: black; 
+     background-color:#9d037ce9; 
+     font-size:20px; 
+  
+     } 
+  
+  
+  
+     nav  li a:hover{ 
+  
+  
+         background-color:red; 
+         color: black; 
+         font-size:20px; 
+  
+         } 
+  
+ nav ul li a{ 
+     color:white; 
+     text-decoration:none; 
+     font-weight:bold; 
+  
+     } 
+  
+ nav.mob, 
+ .toggle{ 
+     display:none; 
+     position:static; 
+     } 
+  
+ @media screen and (max-width:576px){ 
+  
+ nav.desk{     
+     display:none; 
+     } 
+  
+ nav.mob, 
+ .toggle{ 
+     display:inline-block;    
+  
+  
+     } 
+  
+ .toggle{ 
+  
+     float:right; 
+     font-size:38px; 
+     margin-right:15px; 
+     margin-top:-1px; 
+  
+     } 
+  
+ .toggle.fa-bars, 
+ .toggle.fa-times{ 
+  
+     icon-size:35px; 
+     color:black; 
+     cursor:pointer; 
+  
+  
+     } 
+  
+ .mob ul{ 
+     margin-top:10px; 
+     background:blue; 
+     color: white; 
+     display:none; 
+  
+     } 
+  
+ .mob li{ 
+     text-transform:uppercase; 
+     text-align:center; 
+     padding:2px; 
+     cursor:pointer; 
+  
+     } 
+  
+ .mob ul.active{ 
+     display:block; 
+ } 
+ fa { 
+     padding: 20px; 
+     font-size: 39px; 
+     width: 65px; 
+     text-align: center; 
+     text-decoration:dashed; 
+     margin: 5px 2px; 
+   } 
+  
+   .fa-facebook-square{ 
+     padding: 10px; 
+     font-size: 25px; 
+     width: 35px; 
+  
+     text-align: center; 
+     text-decoration:dashed; 
+     margin: 5px 2px; 
+   } 
+  
+   .fa-facebook-square{ 
+  
+     color: navy; 
+   } 
+  
+   .fa-facebook-square:hover{ 
+     background-color:black; 
+     color:purple; 
+   } 
+   Form{ 
+     font-size:35px; 
+     text-align:centre; 
+     background-color:yellow; 
+     } 
+     h3{ 
+     background-color:black; 
+     } 
+     BR{ 
+     font-size:33px; 
+     } 
+     input{ 
+     font-size:30px; 
+     box-size:30px; 
+  
+     } 
+     radio button{ 
+     font-size:32px; 
+     }
+section1{
+tex-align:center;
     
-  }
-  sectionone{
-    display: flex;
-width:100%;
-    height:500px;
-align-content:center;   
-height:100%;
-  }
-p{
-  font-weight: bold;
-  font-size:35px;
-  color:black;
-}
-h1{
-  padding: 25px 0 5px 0px;
-
-  font-size:50px;
-  font:bold;
-  font-style: italic;
-  font-family:arial;
-  margin-right: 1px;
-
-}
-l{
-  font-size: 30px;
-  color:white;
-  font-weight: bold;
-padding-left:20px;
-text-align:centre;
-
-}
-li{
-  font-size: 40px;
-  color:red;
-  font-weight: bold;
-text-align:centre;
-    }
-Form{
-font-size:42px;
-text-align:centre;
-background-color:gold;
-}
-h3{
-background-color:black;
-}
-BR{
-font-size:33px;
-}
-input{
-font-size:32px;
-box-size:32px;
-
-}
-radio button{
-font-size:32px;
-}
-h2{
-font-color:red;
-color:red;
-
-
-}
-
-search button{
-font-size:40px;
-}
-
-a{
-color:orange ;
-font-size:30px;
-font-family:arrial;
-}
-img{
-image-size:small;
-}
-
-href{
-size:30px;
-
-}
-
-h{
-background-size:50px;
-bacround-color:red;
-}
-
-
-
-section1{ 
-
-  
-   text-align: center; 
-
-height:100%; 
- width:100%;
-
-  
- }
-
-
-.fa { 
-   padding: 20px; 
-   font-size: 39px; 
-   width: 57px; 
-   text-align: center; 
-   text-decoration: none; 
-   margin: 5px 2px; 
- } 
- .fa-facebook{ 
-   background: #3b5998; 
-   color:white; 
- } 
- .fa-youtube{ 
-   background: #bb0000; 
-
- color:white;
- } 
- .fa-twitter{ 
-   background: #55acee; 
- } 
- .fa-instagram{ 
-   background:black; 
- } 
- .fa-whatsapp{ 
-   background:green; 
-
- color: white;
- } 
- .fa-google{ 
-   background:black; 
-
- color:white;
- }
-
