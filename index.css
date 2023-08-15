@@ -15,8 +15,7 @@
      } 
      .mob{ 
          height: 39px; 
-         background-color:rgb(2, 139, 18); 
-         position:fixed; 
+background-color:rgba(162, 1, 199, 0.952);         position:fixed; 
          width: 100%; 
   
      } 
@@ -199,7 +198,7 @@
      font-size:22px; 
      }
 section1{
-tex-align:center;
+text-align:center;
 
 }
     
