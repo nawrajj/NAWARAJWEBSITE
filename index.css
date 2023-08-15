@@ -39,6 +39,14 @@
      font-weight: bolder; 
  } 
   
+
+
+.logo{ 
+     font-size: x-large; 
+     color: gold; 
+     font-weight: bolder; 
+ } 
+
  nav.desk ul li a { 
   padding: 7px; 
   line-height: 40px; 
