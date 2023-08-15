@@ -179,23 +179,24 @@
      color:purple; 
    } 
    Form{ 
-     font-size:35px; 
-     text-align:centre; 
-     background-color:yellow; 
+     font-size:25px; 
+     
+     background-color:
+; 
      } 
      h3{ 
      background-color:black; 
      } 
      BR{ 
-     font-size:33px; 
+     font-size:23px; 
      } 
      input{ 
-     font-size:30px; 
-     box-size:30px; 
+     font-size:21px; 
+     box-size:23px; 
   
      } 
      radio button{ 
-     font-size:32px; 
+     font-size:22px; 
      }
 section1{
 tex-align:center;
