@@ -1,7 +1,6 @@
 *{ 
     margin:0; 
     padding:0; 
- 
     } 
     body{ 
  
@@ -10,7 +9,7 @@
           
  
             background-color:#eae3dcdc; 
-            scroll-behavior:smooth; 
+            
  
     } 
     html{
