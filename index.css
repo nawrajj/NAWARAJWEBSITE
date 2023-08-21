@@ -1,208 +1,368 @@
 *{ 
-     margin:0; 
-     padding:0; 
-  
-     } 
-     body{ 
-  
-             font-family: sans-serif; 
-             background-size: cover; 
-             background-position: center; 
-  
-             background-color:#e1d9d1; 
-             scroll-behavior:smooth; 
-  
-     } 
-     .mob{ 
-         height: 39px; 
-background-color:rgba(162, 1, 199, 0.952);         position:fixed; 
-         width: 100%; 
-  
-     } 
- .desk{ 
-     height: 39px; 
-     background-color:rgba(162, 1, 199, 0.952); 
-     width: 100%; 
-     position: fixed; 
- } 
-  
- .container nav.desk 
- .container nav.mob{ 
-     width:100%; 
-     height:50px;  
-  
-     } 
- label{ 
-     font-size: xx-large; 
-     color: gold; 
-     font-weight: bolder; 
- } 
-  
+    margin:0; 
+    padding:0; 
+ 
+    } 
+    body{ 
+ 
+            font-family: sans-serif; 
+            background-size: cover; 
+          
+ 
+            background-color:#eae3dcdc; 
+            scroll-behavior:smooth; 
+ 
+    } 
+    html{
+      scroll-behavior:smooth;
+    }
+    .mob{ 
+        height: 39px; 
+background-color:purple;         position:fixed; 
+        width: 100%; 
+ 
+    } 
+.desk{ 
+    height: 39px; 
+    background-color:rgba(162, 1, 199, 0.952); 
+    width: 100%; 
+    position: fixed; 
+} 
+ 
+.container nav.desk 
+.container nav.mob{ 
+    width:100%; 
+    height:50px;  
+ 
+    } 
+label{ 
+    font-size: xx-large; 
+    color: gold; 
+    font-weight: bolder; 
+} 
+ 
 
 
 .logo{ 
-     font-size: x-large; 
-     color: gold; 
-     font-weight: bolder; 
- } 
+    font-size: x-large; 
+    color: gold; 
+    font-weight: bolder; 
+} 
 
- nav.desk ul li a { 
-  padding: 7px; 
-  line-height: 40px; 
- color: white; 
-         } 
+nav.desk ul li a { 
+ padding: 7px; 
+ line-height: 40px; 
+color: white; 
+        } 
+ 
+        .desk ul { 
+     float:right ; 
+ 
+                } 
+.desk ul li{ 
+ 
+    font-size:larger; 
+   display: inline-block; 
+    text-transform:uppercase; 
+    cursor:pointer; 
+    transition:all 0.5s ease; 
+    } 
+ 
+ 
+nav  li:hover{ 
+ 
+   color: black; 
+    background-color:#9d037ce9; 
+    font-size:20px; 
+ 
+    } 
+ 
+ 
+ 
+    nav  li a:hover{ 
+ 
+ 
+        background-color:red; 
+        color: black; 
+        font-size:23px; 
+ 
+        } 
+ 
+nav ul li a{ 
+    color:white; 
+    text-decoration:none; 
+    font-weight:bold; 
+ 
+    } 
+ 
+nav.mob, 
+.toggle{ 
+    display:none; 
+    position:static; 
+    } 
+ 
+@media screen and (max-width:576px){ 
+ 
+nav.desk{     
+    display:none; 
+    } 
+}
+nav.mob, 
+.toggle{ 
+    display:inline-block;    
+ 
+ 
+    } 
+ 
+.toggle{ 
+ 
+    float:right; 
+    font-size:38px; 
+    margin-right:-18px; 
+    margin-top:-26px; 
+ 
+    } 
+    .main-btn:hover{
+background-color:darkred;
+color: gold;
+
+
+
+    }
+    .main-btn{
+        width: fit-content;
+      height: fit-content;
+      font-family:poppins;
+      font-size: 17px;
+      font-weight: bold;
+      color: purple;
+      background-color: lime;
+      padding:5px 10px ;
+      outline: white;
+      border-radius: 3mm;
+      cursor: pointer;
+      border-color: gold;
+      
+      
+      }
+ 
+.toggle.fa-bars, 
+.toggle.fa-times{ 
+ 
+    icon-size:35px; 
+    color:black; 
+    cursor:pointer; 
+ 
+ 
+    } 
+ 
+.mob ul{ 
+    margin-top:10px; 
+    background:blue; 
+    color: white; 
+    display:none; 
+ 
+    } 
+ 
+.mob li{ 
+    text-transform:uppercase; 
+    text-align:center; 
+    padding:2px; 
+    cursor:pointer; 
+ 
+    } 
+ 
+.mob ul.active{ 
+    display:block; 
+} 
+.fa { 
+    padding: 20px; 
+    font-size: 39px;
+   
+    width: 29px; 
+    height: 19px;
+    text-align: center; 
+    text-decoration:dashed; 
+    margin: 5px 2px; 
+    background-color;
+  } 
+ 
   
-         .desk ul { 
-      float:right ; 
+  .fa-facebook-square{ 
+    padding: 10px; 
+    font-size: 25px; 
+    width: 35px; 
+ 
+    text-align: center; 
+    text-decoration:dashed; 
+    margin: 5px 2px; 
+  } 
+ 
   
-                 } 
- .desk ul li{ 
+  .fa-facebook-square{
   
-     font-size:larger; 
-    display: inline-block; 
-     text-transform:uppercase; 
-     cursor:pointer; 
-     transition:all 0.5s ease; 
-     } 
+    color: rgb(14, 14, 170);
+  }
+
+  .fa-facebook-square:hover{
+    background-color:black;
+    color:purple;
+  }
+  .fa-facebook{
   
+    background:#3f67b7;
+    color: white;
+   
+  }
+  .fa-youtube{
+    background: #bb0000;
+    color: white;
+  }
+  .fa-twitter{
+    background: #55acee;
+  }
+  .fa-github{
+    background:black;
+    color: white;
+  }
+  .fa-whatsapp{
+    background:green;
+  }
   
- nav  li:hover{ 
+  .fa-google{
+    background:black;
+    color: white;
+  }
+
+
+.fa-moon-o{
+    font-size: 88px;
+padding: 6px;
+    
+}
+form2{
+  text-align: center;
+}
+f{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  font-size:medium;
+}
+n{
+  text-align: center;
+  color: rgb(0, 255, 0);
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.popup-content{
+  width: 150px;
+  height: 170px;
   
-    color: black; 
-     background-color:#9d037ce9; 
-     font-size:20px; 
-  
-     } 
-  
-  
-  
-     nav  li a:hover{ 
-  
-  
-         background-color:red; 
-         color: black; 
-         font-size:20px; 
-  
-         } 
-  
- nav ul li a{ 
-     color:white; 
-     text-decoration:none; 
-     font-weight:bold; 
-  
-     } 
-  
- nav.mob, 
- .toggle{ 
-     display:none; 
-     position:static; 
-     } 
-  
- @media screen and (max-width:576px){ 
-  
- nav.desk{     
-     display:none; 
-     } 
-  
- nav.mob, 
- .toggle{ 
-     display:inline-block;    
-  
-  
-     } 
-  
- .toggle{ 
-  
-     float:right; 
-     font-size:38px; 
-     margin-right:15px; 
-     margin-top:-1px; 
-  
-     } 
-  
- .toggle.fa-bars, 
- .toggle.fa-times{ 
-  
-     icon-size:35px; 
-     color:black; 
-     cursor:pointer; 
-  
-  
-     } 
-  
- .mob ul{ 
-     margin-top:10px; 
-     background:blue; 
-     color: white; 
-     display:none; 
-  
-     } 
-  
- .mob li{ 
-     text-transform:uppercase; 
-     text-align:center; 
-     padding:2px; 
-     cursor:pointer; 
-  
-     } 
-  
- .mob ul.active{ 
-     display:block; 
- } 
- fa { 
-     padding: 20px; 
-     font-size: 39px; 
-     width: 65px; 
-     text-align: center; 
-     text-decoration:dashed; 
-     margin: 5px 2px; 
-   } 
-  
-   .fa-facebook-square{ 
-     padding: 10px; 
-     font-size: 25px; 
-     width: 35px; 
-  
-     text-align: center; 
-     text-decoration:dashed; 
-     margin: 5px 2px; 
-   } 
-  
-   .fa-facebook-square{ 
-  
-     color: navy; 
-   } 
-  
-   .fa-facebook-square:hover{ 
-     background-color:black; 
-     color:purple; 
-   } 
-   Form{ 
-     font-size:25px; 
-     
-     background-color:
-; 
-     } 
-     h3{ 
-     background-color:black; 
-     } 
-     BR{ 
-     font-size:23px; 
-     } 
-     input{ 
-     font-size:21px; 
-     box-size:23px; 
-  
-     } 
-     radio button{ 
-     font-size:22px; 
-     }
+    background-color:rgb(136, 38, 38);
+  box-sizing: border-box;
+  border-radius: 3mm;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  }
+  .popup{
+    width: 150px;
+    height: 170px;
+    text-align: center;
+      background-color:rgb(136, 38, 38);
+    box-sizing: border-box;
+    border-radius: 3mm;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+  .prog{
+  background-color: rgb(0, 255, 0);
+  color: crimson;
+  width: 50%;
+  initial-value: 20%;
+  animation: forwards;
+  animation-name: inherit;
+  }
+  Form{ 
+    font-size:25px; 
+   
+    
+    background-color:purple; 
+    } 
+    h3{ 
+    background-color:black; 
+    } 
+    BR{ 
+    font-size:23px; 
+    } 
+    input{ 
+    font-size:21px; 
+    box-size:23px; 
+ 
+    } 
+    
 section1{
 text-align:center;
+background: rgb(78, 77, 77);
 
 }
-    
+.butt:hover{
+    background-color: yellow;
+    color: #bb0000;
+}
+.butt{
+    width: fit-content;
+  height: fit-content;
+  font-family:poppins;
+  font-size:17px;
+  font-weight: bold;
+  color:whitesmoke;
+  background-color:rgb(149, 4, 118);
+  padding:5px 10px ;
+  outline: white;
+  border-radius: 3mm;
+  cursor: pointer;
+  border-color: gold;
+  
+  
+  }
+   
 section2{
 text-align:center;
 
+}
+
+b{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+h{
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+ 
+}
+Li{
+  font-size: large;
+  font-style: italic;
+}
+h2{
+  color: red;
+
+  font-size: medium;
+  font-style: italic;
+  
+}
+a{
+  color:rgb(178, 2, 2);
+  font-weight: bold;
 }
