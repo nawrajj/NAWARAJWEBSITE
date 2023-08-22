@@ -366,14 +366,8 @@ a{
   color:rgb(178, 2, 2);
   font-weight: bold;
 }
-.container {
-  border-radius: 10px;
-  width:95%;
 
-
-  }
-  
-
+ 
   .container h2 {
     margin-bottom: 30px;
     }
