@@ -466,5 +466,6 @@ a{
       }
       .skill-count{
           color:purple;
-          font-weight:bolder ;
+          font-weight:bolder;
+font-style:italic;
       }    
