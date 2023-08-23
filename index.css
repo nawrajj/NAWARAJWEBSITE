@@ -6,8 +6,7 @@
     body{ 
       font-family: sans-serif; 
       background-size: cover;   
- 
-            background-color:#eae3dcdc; 
+        background-color:#eae3dcdc; 
            width:100%;
  
     } 
@@ -288,9 +287,8 @@ n{
   animation-name: inherit;
   }
   Form{ 
-    font-size:25px; 
-   
-    
+    font-size:23px; 
+  
     background-color:purple; 
     } 
     h3{ 
@@ -355,7 +353,6 @@ Li{
 }
 h2{
   color: red;
-
   font-size: medium;
   font-style: italic;
   
