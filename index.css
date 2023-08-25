@@ -7,7 +7,7 @@
       background-size: cover;   
         background-color:#eae3dcdc; 
           
- 
+ width:100%;
     } 
     html{
       scroll-behavior:smooth;
