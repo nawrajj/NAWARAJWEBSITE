@@ -1,13 +1,17 @@
 *{ 
     margin:0; 
-    padding:0;  
+    padding:0; 
+
     } 
     body{ 
       font-family: sans-serif; 
-      background-size: cover;   
-        background-color:#eae3dcdc; 
-          
- width:100%;
+      background-size: cover; 
+    width: 100%;
+           
+ 
+            background-color:#eae3dcdc; 
+           
+ 
     } 
     html{
       scroll-behavior:smooth;
@@ -171,12 +175,13 @@ color: gold;
 .mob ul.active{ 
     display:block; 
 } 
+/* icon */
 .fa { 
     padding: 20px; 
     font-size: 39px;
    
     width: 29px; 
-    height: 19px;
+    height: 23px;
     text-align: center; 
     text-decoration:dashed; 
     margin: 5px 2px; 
@@ -186,7 +191,7 @@ color: gold;
   
   .fa-facebook-square{ 
     padding: 10px; 
-    font-size: 25px; 
+    font-size: 29px; 
     width: 35px; 
  
     text-align: center; 
@@ -232,9 +237,9 @@ color: gold;
 
 
 .fa-moon-o{
-    font-size: 88px;
+   cursor: pointer;
 padding: 6px;
-    
+  /* icon*/  
 }
 form2{
   text-align: center;
@@ -286,19 +291,17 @@ n{
   animation-name: inherit;
   }
   Form{ 
-    font-size:23px; 
-  
-    background-color:purple; 
+    font-size:25px; 
+    width: 100%;
+    background-color:rgba(244, 187, 1, 0.854); 
+    color:rgb(54, 0, 54);
+   
     } 
-    h3{ 
-    background-color:black; 
-    } 
-    BR{ 
-    font-size:23px; 
-    } 
+   
+    
     input{ 
     font-size:21px; 
-    box-size:23px; 
+     
  
     } 
     
@@ -308,7 +311,7 @@ background: rgb(78, 77, 77);
 
 }
 .butt:hover{
-    background-color: yellow;
+    background-color: rgb(255, 187, 0);
     color: #bb0000;
 }
 .butt{
@@ -318,7 +321,7 @@ background: rgb(78, 77, 77);
   font-size:17px;
   font-weight: bold;
   color:whitesmoke;
-  background-color:green;
+  background-color:rgb(149, 4, 118);
   padding:5px 10px ;
   outline: white;
   border-radius: 3mm;
@@ -350,18 +353,19 @@ Li{
   font-size: large;
   font-style: italic;
 }
-h2{
-  color: red;
-  font-size: medium;
-  font-style: italic;
-  
-}
+
 a{
   color:rgb(178, 2, 2);
   font-weight: bold;
 }
+.container {
+  border-radius: 10px;
+  width:95%;
 
- 
+
+  }
+  
+
   .container h2 {
     margin-bottom: 30px;
     }
@@ -462,16 +466,80 @@ a{
       }
       .skill-count{
           color:purple;
-          font-weight:bolder;
-font-style:italic;
+          font-weight:bolder ;
       }    
-K{ 
-     color:green; 
-     font-size:22px; 
-     font-weight: bold; 
+
+    /* notes of class*/
+    #box{
+        display: inline-block;
+        text-align: center;
+        height:163px;
+        width: 188px;
+        background-color:rgba(214, 3, 119, 0.909);
+        border-radius: 3mm;
+        padding: 5px;
+        margin: 5px;
+    }
+    Y{
+        font-size: 23px;
+        color:yellow;
+        font-weight: bolder;
+    }
+    z{
+        font-size: 18px;
+        color:white;
+        font-weight: bold;
+    }
+    .butt{
+        width: fit-content;
+      height: fit-content;
+      font-family:poppins;
+      font-size:17px;
+      font-weight: bold;
+      color:whitesmoke;
+      background-color:green;
+      padding:5px 10px ;
+    margin: 10px;
     
+      cursor: pointer;
+    
+      }
+      K{  
+        color:green;  
+        font-size:22px;  
+        font-weight: bold;  
+    
+    
+    } 
   
- }
-Section9{
-text-align:center;
-}
+  .div span{
+      
+      color:rgb(139, 46, 2);
+      animation-name: colorchange;
+      animation-duration: 12s;
+      animation-timing-function: infinite ;
+      animation-delay: 2s;
+  }
+  /*welcome*/
+  @keyframes colorchange {
+      
+    20% {color: blue; }
+      30% {color: red; }
+      40% {color: green; }
+      50% {color: Purple; }
+      60% {color: black; }
+      70% {color:gold; }
+      80% {color:white; }
+      90% {color:magenta; }
+      100% {color:mediumspringgreen; }
+      
+  }
+  span{
+      margin:-2px;
+      font-size:xx-large ;
+      font-weight:bold;
+      
+  }
+  section9{
+      text-align:center ;
+  }
