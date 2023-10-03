@@ -6,7 +6,7 @@
     body{ 
       font-family: sans-serif; 
       background-size: cover; 
-  
+  width:100%
  
             background-color:#eae3dcdc; 
            
@@ -473,7 +473,7 @@ a{
         display: inline-block;
         text-align: center;
         height:163px;
-        width: 170px;
+        width: 160px;
         background-color:rgba(214, 3, 119, 0.909);
         border-radius: 3mm;
         padding: 5px;
