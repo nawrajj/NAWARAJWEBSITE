@@ -473,19 +473,19 @@ a{
         display: inline-block;
         text-align: center;
         height:163px;
-        width: 188px;
+        width: 170px;
         background-color:rgba(214, 3, 119, 0.909);
         border-radius: 3mm;
         padding: 5px;
         margin: 5px;
     }
     Y{
-        font-size: 23px;
+        font-size: 22px;
         color:yellow;
         font-weight: bolder;
     }
     z{
-        font-size: 18px;
+        font-size: 15px;
         color:white;
         font-weight: bold;
     }
