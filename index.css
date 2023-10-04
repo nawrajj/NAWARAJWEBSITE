@@ -473,14 +473,14 @@ a{
         display: inline-block;
         text-align: center;
         height:163px;
-        width: 145px;
+        width: 147px;
         background-color:rgba(214, 3, 119, 0.909);
         border-radius: 3mm;
         padding: 5px;
         margin: 5px;
     }
     Y{
-        font-size: 19px;
+        font-size: 16px;
         color:yellow;
         font-weight: bolder;
     }
