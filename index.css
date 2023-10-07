@@ -16,7 +16,7 @@
       scroll-behavior:smooth;
     }
     .mob{ 
-        height: 39px; 
+        height: 38px; 
 background-color:purple;         position:fixed; 
         width: 100%; 
  
@@ -175,30 +175,20 @@ color: gold;
     display:block; 
 } 
 /* icon */
+
 .fa { 
     padding: 20px; 
     font-size: 39px;
-   
     width: 29px; 
     height: 23px;
     text-align: center; 
     text-decoration:dashed; 
     margin: 5px 2px; 
-    background-color;
+    
   } 
  
   
-  .fa-facebook-square{ 
-    padding: 10px; 
-    font-size: 29px; 
-    width: 35px; 
- 
-    text-align: center; 
-    text-decoration:dashed; 
-    margin: 5px 2px; 
-  } 
- 
-  
+
   .fa-facebook-square{
   
     color: rgb(14, 14, 170);
