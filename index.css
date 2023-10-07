@@ -17,7 +17,8 @@
     }
     .mob{ 
         height: 38px; 
-background-color:purple;         position:fixed; 
+background-color:purple;   
+        position:fixed; 
         width: 100%; 
  
     } 
@@ -141,8 +142,6 @@ color: gold;
       border-radius: 3mm;
       cursor: pointer;
       border-color: gold;
-      
-      
       }
  
 .toggle.fa-bars, 
@@ -177,14 +176,12 @@ color: gold;
 /* icon */
 
 .fa { 
-    padding: 20px; 
-    font-size: 39px;
-    width: 29px; 
-    height: 23px;
-    text-align: center; 
-    text-decoration:dashed; 
-    margin: 5px 2px; 
-    
+     padding: 15px;
+        font-size: 49px;
+        width: 50px;
+        text-align: center;
+        text-decoration:dashed;
+        margin: 5px 2px;
   } 
  
   
